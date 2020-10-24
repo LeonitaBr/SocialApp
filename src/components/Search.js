@@ -18,7 +18,7 @@ const Search = () => {
     const showSearchBoxHandler = () => {
         const button_box_translate_x_config = {
             duration: 1200,
-            toValue: width - 110,
+            toValue: width - 112,
             easing: Easing.inOut(Easing.ease)
         }
         const input_box_width_config = {
