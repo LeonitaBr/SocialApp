@@ -77,10 +77,10 @@ const styles = StyleSheet.create({
     height: '100%'
   },
   list: {
-    paddingLeft: 10,
+    paddingLeft:0,
+    // left:10,
     height: 130,
     flexGrow: 0,
-    // backgroundColor:'green', 
   },
   image: {
     height: 350,
@@ -142,7 +142,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     overflow: 'hidden',
-    width: 94,
+    width: 94, marginLeft:20,
     height: 94
   },
 
